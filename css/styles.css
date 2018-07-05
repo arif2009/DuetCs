@@ -1,0 +1,390 @@
+body{
+    margin:10px 0 0 0;
+    padding:0;
+    background: url(./../images/background.gif);
+    font: 13px/16px tahoma, Arial, Helvetica, sans-serif,SolaimanLipi,AdorshoLipi;
+}
+.please-wait {
+    display: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    background:#999999 url('./../images/loadingBig.gif') no-repeat 50% 30%;
+    /*background: #d4dbda;*/
+    color:#FFFFFF;
+    text-shadow: #fff 0px 0px 20px;
+    position: absolute;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    text-align: center;
+    vertical-align: central;
+    opacity:0.5;
+    filter: alpha(opacity=50);
+    width:100%;
+    height: 150%;
+}
+.deletePostOrNews{
+    color: #888888;
+}
+.deletePostOrNews:hover{
+    color: #FF0000;
+    font-weight: bold;
+}
+.editPostOrNews{
+    color: transparent;
+    background-image: url(./../images/edit_bw.png);
+    background-repeat:no-repeat;
+}
+.editPostOrNews:hover{
+    color: transparent;
+    background-image: url(./../images/edit_color.png);
+    background-repeat:no-repeat;
+}
+.contentWithBorder{
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+    padding: 0 3px;
+    text-align: center;
+}
+.contentWithBorder #albumHeading{
+   display: inline;
+   position: relative;
+   font: 23px tahoma, Helvetica, Sans-Serif, Arial, Museo, Rockwell, Serif, 'Times New Roman',Times;
+   letter-spacing: -1px;
+   font-weight: bold;
+   color:blueviolet;
+    
+}
+input.submit{
+	display: block;
+	float:right;
+	width:104px; height:29px;
+	background:url(./../images/blue.png) no-repeat;
+	color: white;
+	/*text-transform: uppercase;*/
+    ext-align: center;
+	text-decoration: none;
+	margin-left: 5px;
+	border:0px;
+}
+input.submit:hover, a.submit:hover{
+    background:url(./../images/bluehigh.png) no-repeat;
+    color: white;
+}
+input.reset{
+	display: block;
+	float:right;
+	width:104px; height:29px;
+	background:url(./../images/red.png) no-repeat;
+	color: white;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+	margin-left: 5px;
+	border:0px;
+}
+input.reset:hover{
+    background:url(./../images/redhigh.png) no-repeat;
+    color: white;
+}
+
+#maincontainer{
+    background-color:#f0ffff;
+/*    background-color:#ffffff;*/
+/*    background-color: #C2D5FC;*/
+/*background-color: #EAEAEA;*/
+/*background-color: #E0F0E8;*/
+/*background-color: #C1D0C8;*/
+/*background-color: #FFCC66;*/
+}
+.contentWithBorder{
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+    padding: 0 3px;
+    text-align: center;
+}
+/* Start Css for Header*/
+.headTop{
+    background: #EAEAEA;
+    height:100px; /*Height of top section*/
+    background:url(./../images/head_bg.jpg) repeat-x top;
+}
+.duetLogo{
+    margin-top: 3px;
+    text-align: center;
+/*    background-color: #000;*/
+}
+.cslogo{
+/*    background-color: #0000FF;*/
+}
+.title{
+/*    background-color: #9c2c24;*/
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    text-shadow: 5px 5px 5px #ffffff;
+    color: #9c2c24;
+    margin-top: 0.5em;
+    text-align: center;
+}
+/*End Css for Header*/
+
+/*Start Footer*/
+footer{
+    height: 52px;
+    margin:auto;
+    border-top: 10px solid #0000FF;
+    background:url(./../images/footer.jpg) repeat-x top;
+    color: #FFF;
+    text-align: center;
+}
+footer div{
+    margin-top:2px;
+    text-align: center;
+}
+footer p{
+    margin-top:1px;
+    text-align: center;
+}
+footer p a{
+    text-decoration:none;
+    color: #000;
+}
+
+footer p a:hover {
+	color: #fff;
+}
+/*Start Footer*/
+
+/* Start CSS for All of Registration page(which in registration directory)*/
+#loginContent #message{
+    color: #000;
+}
+#registrationContent table{
+    border-collapse:separate;
+    border-spacing:3px;
+}
+#registrationContent .outter{
+    border:3px #E0F0E8 solid;
+    background-color:#F5FAF9;
+}
+#registrationContent .note{
+    font-family:tahoma;
+    font-size:12px;
+    color:#333333;
+    border:1px #55917A dashed;
+}
+#registrationContent .input{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:12px;
+    border:1px #A7BEB7 solid;
+}
+#registrationContent .text{
+    font-family:tahoma;
+    font-size:12px;
+    color:#617E78;
+}
+#registrationContent .formHeading{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:#55917A;
+}
+
+#message{
+    color: yellow;
+    text-align:left;
+}
+#message div{
+    text-align:center;
+    text-decoration: underline;
+}
+#loginContent a{
+    color: #FFFFFF;
+}
+aside #message fieldset, aside #loginContent fieldset, aside .sdmenu fieldset, aside #loginForgotPassword fieldset{
+    margin: auto;
+    background: #559CE1;
+    width: 200px;
+}
+aside #message legend, aside #loginContent legend, aside .sdmenu legend, aside #loginForgotPassword legend{
+    color: #00FF00;
+    background: #888888;
+    padding: .4em 1em;
+    border-radius: 15px;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+#archive, #news_notice{
+    color: #00FF00;
+    background: #888888;
+    padding: .4em 1em;
+    border-radius: 15px;
+   -moz-border-radius: 15px;
+   -webkit-border-radius: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+aside input[type="text"],input[type="password"],select{
+    width: 100%;
+}
+.grid_12 #message{
+    color:black;
+    background-color: #ededed;
+    font-family: 'Times New Roman',Times,serif,AdorshoLipi,Akaash,AponaLohit,Bangla,Rupali,'SolaimanLipi','Siyam Rupali','Shonar Bangla';
+}
+.errors{
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size:12px;
+   font:12px;
+   font-weight: bold;
+   vertical-align: baseline;
+   color:brown;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.center{
+    text-align: center;
+}
+.indent{
+    padding-left: 5em;
+}
+/*End CSS for All of Registration page*/
+
+/*CSS for all groups directory*/
+#executiveBody{
+    text-align: center;
+    font-family: 'Times New Roman',Times,serif;
+    border-bottom: 2px solid transparent;
+}
+#executiveBody table tr td{
+    border: 1px solid #000;
+}
+#executiveBody .pa tr td,#executiveBody .ap tr td,#executiveBody .nc tr td,#executiveBody .mg tr td,#executiveBody .ca tr td,#executiveBody .lp tr td{
+    border: 0px;
+}
+#allMember{
+    border: 1px solid #000;
+}
+#allMember .heading{
+    font-size: 18px;
+    color: #993300;
+    font-weight: bold;
+    text-align: center;
+}
+#allMember ol li{
+    list-style:decimal;
+}
+#developers h1{
+    color: #663300;
+    font-family: verdana,arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+/*End CSS for all groups directory*/
+
+@font-face{ 
+    font-family: AdorshoLipi_arif; 
+    src: url('./../captcha/fonts/AdorshoLipi_20-07-2007.eot');
+    src: local('AdorshoLipi_arif'), url('./../captcha/fonts/AdorshoLipi_20-07-2007.eot') format('truetype'); /* For non-IE */ 
+}
+@font-face{ 
+    font-family: SolaimanLipi_arif; 
+    src: url('./../captcha/fonts/SolaimanLipi_20-04-07.eot');
+    src: local('SolaimanLipi_arif'), url('./../captcha/fonts/SolaimanLipi_20-04-07.eot') format('truetype'); /* For non-IE */ 
+}
+/*Start CSS for all blog directory*/
+.allPost{
+    font-family: tahoma,Arial,Vrinda,SolaimanLipi,AdorshoLipi;
+    text-align: justify;
+}
+/*End CSS for all blog directory*/
+
+/*Start CSS for all news directory*/
+
+/*End CSS for all news directory*/
+
+/*Start CSS for all administration directory*/
+.stdInfoTable{
+    font-size: 15px;
+    width: 100%;
+}
+.stdInfoTable td{
+    padding: 2px;
+    border: 2px solid #e3e3e3;
+}
+.stdInfoTable tr>td:first-child{
+    font-weight: bold;
+    width: 150px;
+}
+
+/* ----------- My Form ----------- */
+.myform{
+    margin:0 auto;
+    width:400px;
+    padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+    border:solid 2px #b7ddf2;
+    background:#ebf4fb;
+}
+#stylized h1 {
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+#stylized p{
+    font-size:11px;
+    color:#666666;
+    margin-bottom:20px;
+    border-bottom:solid 1px #b7ddf2;
+    padding-bottom:10px;
+}
+#stylized label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:140px;
+    float:left;
+}
+#stylized .small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:140px;
+}
+#stylized input,#stylized select{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:200px;
+    margin:2px 0 20px 10px;
+}
+#stylized button{
+    clear:both;
+    width:90px;
+    height:31px;
+    background:url(./../images/bluehigh.png) no-repeat;
+    text-align:center;
+    line-height:31px;
+    color:#FFFFFF;
+    font-size:11px;
+    font-weight:bold;
+}
+/*End CSS for all administration directory*/

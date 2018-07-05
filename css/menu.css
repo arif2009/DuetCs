@@ -1,0 +1,111 @@
+#menuh{
+   margin: 0 0 0.5em 0;
+   position:relative; 
+   font-size: medium;
+   text-align:center;
+   font-family: 'Times New Roman',Times,serif;
+   height: 1.7em;
+   background-color: #00a54f;
+
+}
+		
+#menuh a{
+    text-align: center;
+    display:block;
+    border-right: 1px solid #FFF;
+    margin:auto;
+    padding: 0.3em;
+}
+	  
+#menuh a:link, #menuh a:visited, #menuh a:active{
+    color: white;
+    background-color: #00a54f;
+    background-image: url(./../images/menu/menu.jpg);
+    text-decoration:none;
+}
+	
+#menuh a:hover{
+    color: white;
+    color: #9900ff;
+    text-decoration:none;
+}	
+	
+#menuh a.top_parent, #menuh a.top_parent:hover{
+    background-image: url(./../images/menu/navdown_white.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+	
+
+#menuh ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    float: left;
+    width: 7em;
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+}
+
+#menuh li{
+    position:relative;
+    min-height: 1px;		/* Sophie Dennis contribution for IE7 */
+    vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+    display: inherit;
+}
+#menuh ul ul{
+    position:absolute;
+    z-index:500;
+    top:auto;
+    display:none;
+    padding: 1em;
+    margin:-1em 0 0 -1em;
+}
+
+#menuh ul ul ul{
+    top:0;
+    left:100%;
+}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */
+
+/*CSS for side manu*/
+div.sdmenu {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #eee;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	color: #066;
+}
+div.sdmenu div a:hover {
+	background : #559CE1 url(./../images/menu/arif_linkarrow.gif) no-repeat right center;
+	color: #fff;
+	text-decoration: none;
+}
+/* End CSS for side manu*/
