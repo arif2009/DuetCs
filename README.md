@@ -60,6 +60,7 @@ Using this panel admin can easily assign as batch as an old student.
 
 
 **Photo gallery:**
+
 ![alt text](https://i.imgur.com/Z3FwoND.png "Photo gallery of different activities")
 
 
