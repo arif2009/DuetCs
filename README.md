@@ -70,6 +70,7 @@ Using this panel admin can easily assign as batch as an old student.
     - Add / Remove Admin: It will show all the students of executive body who have *President, GeneralSecretary, Finance  and SectionChief* role/responsibility.
     - Manage X-Student:
 
+---
 #### Author
 Arifur Rahman ( arif.rahman2009@gmail.com )
 
