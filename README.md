@@ -24,45 +24,45 @@ if XAMPP no need to change.
 ---
 ![alt text](https://i.imgur.com/aGhugq0.png "Database design")
 
-</br>
+
 #### Some screenshots to understand this application
 ---
 **Home page:**
 ![alt text](https://i.imgur.com/99Bd8GA.png "Landing page")
 
-</br>
+
 **Registration page:**
 ![alt text](https://i.imgur.com/qsv2Gl2.png "Registration page")
 
-</br>
+
 **Update user information page:**
 ![alt text](https://i.imgur.com/43DpXk8.png "Update")
 
-</br>
+
 **Member management page:**
 ![alt text](https://i.imgur.com/knxKslf.png "Member selection")
 
 Using this page, admin can assign different types of responsibility to the member.
 
-</br>
+
 **Old member management:**
 ![alt text](https://i.imgur.com/SKjkM1I.png "x-student")
 
 Using this panel admin can easily assign as batch as an old student.
 
-<br>
+
 **View all member according to their batch/group:**
 ![alt text](https://i.imgur.com/sNuRbab.png "previous student group")
 
-</br>
+
 **Current executive body of the organization:**
 ![alt text](https://i.imgur.com/YIsYZqL.png "Current executive body")
 
-</br>
+
 **Photo gallery:**
 ![alt text](https://i.imgur.com/Z3FwoND.png "Photo gallery of different activities")
 
-</br>
+
 #### Developers Guide :
 ---
 - **Admin panel**
