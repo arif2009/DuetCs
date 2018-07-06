@@ -1,6 +1,6 @@
 ### DUET Computer Society Management Application
 ---
-It manage information and different activities of society member’s.
+It manages information and different activities of society member’s.
 
 #### Development Tools & Technology :
 ---
