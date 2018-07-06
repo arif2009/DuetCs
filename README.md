@@ -78,8 +78,6 @@ Using this panel admin can easily assign as batch as an old student.
     - X-student body member: Show the user whose year=no and Semester=no.
 
 ---
-#### Author
-Arifur Rahman ( arif.rahman2009@gmail.com )
 
 #### License
 This application is released under the [GPL-3.0](https://github.com/arif2009/DuetCs/blob/master/LICENSE) License.
