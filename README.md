@@ -69,3 +69,11 @@ Using this panel admin can easily assign as batch as an old student.
 - **Admin panel**
     - Add / Remove Admin: It will show all the students of executive body who have *President, GeneralSecretary, Finance  and SectionChief* role/responsibility.
     - Manage X-Student:
+
+#### Author
+Arifur Rahman ( arif.rahman2009@gmail.com )
+
+#### License
+This application is released under the [GPL-3.0](https://github.com/arif2009/DuetCs/blob/master/LICENSE) License.
+
+Copyright (c) 2018 [Arifur Rahman.](https://arif2009.github.io/)
