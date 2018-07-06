@@ -8,6 +8,7 @@ It manages information and different activities of society member’s.
 * [MySQL 5 +](https://www.mysql.com/)
 * [CSS(960 Framework)](http://960.gs/)
 * [JQuery](https://jquery.com/)
+* [JqueryUI](https://jqueryui.com/)
 
 #### Installation
 ---
