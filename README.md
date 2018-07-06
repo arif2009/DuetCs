@@ -68,9 +68,13 @@ Using this panel admin can easily assign as batch as an old student.
 ---
 - **Admin panel**
     - Add / Remove Admin: It will show all the students of executive body who have *President, GeneralSecretary, Finance  and SectionChief* role/responsibility.
-    - Manage X-Student: If admin move the last batch of **member table** as x-student, then all the student of that batch in member table will set Year=no and Semister=no.
+    - Manage X-Student: If admin move the last batch of **member** table as x-student, then all the student of that batch in member table will set Year=no and Semister=no.
     - Member Management: Here we can Add/remove member to different department. In that context we can add only one *GeneralSecretary, FinanceDirector, SectionChief*.
-    - Requested Student: In the member table the user who has level=0 they are shown as requested student. 
+    - Requested Student: In the member table the user who has level=0 they are shown as requested student.
+- **About Computer Society**
+    - Show all member: Show all members from all groups.
+    - Executive Body: Show all members from **executive_body** table.
+    - X-student body member: Show the user whose year=no and Semester=no.
 
 ---
 #### Author
